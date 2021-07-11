@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('.burger').click(function(event) {
         $('.burger, .nav').toggleClass('active');
     });
-    document.querySelector('.header').style.minHeight = window.outerHeight;
+    console.log(document.documentElement.clientHeight)
+    document.querySelector('.header').style.minHeight = `${document.documentElement.clientHeight}px`;
 })
 
