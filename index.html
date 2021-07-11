@@ -10,61 +10,49 @@
     <title>Viktoria</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="menu">
+    <div class="wrapper">
+        <header class="header">
+            <div class="head">
                 <div class="container">
-                    <div class="row">
-                        <div class="burger"><span></span></div>
-                        <div class="nav">
-                            <nav>
-                                <ul>
-                                    <li><a href="#board">Обо мне</a></li>
-                                    <li><a href="#">Тета Хилинг</a></li>
-                                    <li><a href="">Для мужчин</a></li>
-                                    <li><a href="">Для женщин</a></li>
-                                    <li><a href="">Цены</a></li>
-                                    <li><a href="">Отзывы</a></li>
-                                    <li><a href="">Контакты</a></li>
-                                    <li><a href="">Груповая раскопка</a></li>
-                                    <li><a href="">Отношения</a></li>
-                                    <li><a href="">Подарок</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                    <div class="head__row">
+                        <div class="burger"><span class="burger__line"></span></div>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Тета Хилинг</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Для мужчин</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Для женщин</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Цены</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Отзывы</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Груповая раскопка</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Отношения</a></li>
+                                <li class="nav__item"><a href="" class="nav__link">Подарок</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
-            <div class="main-header">
-                <div class="main-flex">
-                    <div class="second-flex">
-                            <div class="text1">Тета Хилинг</div>
-                            <div class="text2">Почувствуйте силу<br>и гибкость</div>
-                            <div class="button"><a href="">Записаться</a></div>  
-                    </div>
+            <div class="header__content">
+                <div class="container">
+                    <p class="header__subtitle">Тета Хилинг</p>
+                    <h1 class="header__title">Почувствуйте силу<br>и гибкость</h1>
+                    <a href="" class="header__button">Записаться</a>
                 </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <section class="main-board" id="board"> 
-            <div class="main-wrapper">
-                <div class="content">
-                    <div class="h1">Обо мне</div>
-                    <div class="content-text">Алекса Джордис — сертифицированный преподаватель Хатха йоги в Москве.
-
- 
-
-                        Мои ученики уже убедились, что йога помогает улучшить осанку и гибкость, укрепить здоровье и сделать ум ясным. Попробуйте и вы!</div>
-                    <div class="content-photo"></div>
+        </header>
+        <main>
+            <section class="about" id="about"> 
+                <div class="container">
+                    <h2 class="about__title">Обо мне</h2>
+                    <p class="about__description">
+                        Алекса Джордис — сертифицированный преподаватель Хатха йоги в Москве.
+                        Мои ученики уже убедились, что йога помогает улучшить осанку и гибкость, укрепить здоровье и сделать ум ясным. Попробуйте и вы!</p>
+                    <div class="about__photo"></div>
                 </div>
-
-            </div>
-        </section>
-    
-      
-        
-    </main>
+            </section>
+        </main>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script/script.js"></script>
 </body>
