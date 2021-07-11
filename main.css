@@ -240,7 +240,7 @@ a:hover::after {
     .nav.activ li {
             transform: translateX(0);
             opacity: 1;
-            transition-duration: 0.6s;
+            transition-duration: 0.5s;
         }
 
     ul {
