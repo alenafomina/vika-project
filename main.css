@@ -123,7 +123,7 @@ section{
 }
 
 .header__button {
-    margin-top: 40px;
+    display: inline-block;
     text-decoration: none;
     background-color: #fff;
     color:black;
@@ -204,7 +204,7 @@ section{
         height: 100%;
         background-color:#fff;
         transition: all 0.3s ease 0s;
-        padding-left: 50px;
+        padding-left: 40px;
     }
 
     .nav__item {
