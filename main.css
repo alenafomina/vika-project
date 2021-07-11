@@ -316,6 +316,7 @@ section{
 
     .header {
         background-image: url(img/photo-mini.jpg);
+        background-position: center;
     }
 }
 
