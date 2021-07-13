@@ -316,7 +316,8 @@ section{
 
     .header {
         background-image: url(img/vika2.jpg);
-        background-position: center;
+        background-position: -100px -10px;
+        background-size: auto calc(100% + 10px);
     }
 }
 
