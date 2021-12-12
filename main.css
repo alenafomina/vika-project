@@ -328,10 +328,120 @@ section{
     }
 }
 
-
-.about__title {
+h2 {
     font-size: 36px;
-    font-family: georgia;
-    font-weight: 400;
-    margin-bottom: 20px;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 300;
+    margin-bottom: 30px;
 }
+
+.program-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.program-box_content {
+    font-size: 11px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+
+.list {
+    list-style: none;
+    padding-left: 20px;
+    margin: 15px 0;
+}
+.list li{
+     position: relative;
+     padding: 5px 0;
+    }
+
+.list li:before {
+      content:  "—";
+      position: absolute;
+      left:     -18px;
+  }  
+
+.program-button {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #000;
+        color:#fff !important;
+        padding: 18px 20px;
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition-duration: 0.5s;
+        margin-top: 30px;
+}
+
+.finish-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff !important;
+    padding: 18px 40px;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.questions-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.answer {
+    line-height: 2em;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.question-answer {
+    margin: 15px 0;
+  
+}
+
+.answer-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.answer-list li{
+    position: relative;
+    padding: 5px 0;
+   }
+
+.answer-list li:before {
+     content:  "—";
+     position: absolute;
+     left:     -18px;
+ }  
